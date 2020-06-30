@@ -4,9 +4,9 @@
 ---
 
 <h1 id="compiler">Compiler</h1>
-<p>编译器是将便于编写和维护的高级程序语言转换为计算机可识别的机器语言。编译器是将源程序作为输入，将其翻译成使用目标语言的执行程序。<br>
+<p>编译器是将便于编写和维护的高级程序语言转换为计算机可识别和运行的低级机器语言。编译器是将源语言程序作为输入，将其翻译成使用目标语言的执行程序。<br>
 现代编译器的工作流程：<br>
-源程序（source code）→预处理器（preprocessor）→编译器（compiler）→汇编程序（assembler）→目标程序（object code）→链接器（Linker）→可执行程序（executables）<br>
+源程序source code → 预处理器preprocessor → 编译器compiler → 汇编程序assembler → 目标程序object code → 链接器Linker → 可执行程序executables<br>
 编译器的各工作阶段：<br>
 <strong>词法分析 Lexical Analyzer</strong><br>
 词法分析是将源语言程序作为输入，根据其词法规则输出为一系列的词法单元/单词记号流。词法单元中常见的token有关键字、标识符、分隔符、操作符、NUMBER和常量等。<br>
